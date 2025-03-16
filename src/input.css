@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: all;
+}
+@plugin "daisyui/theme" {
+    name: "halloween";
+    default: false;
+    prefersdark: false;
+    color-scheme: "light";
+    --color-base-100: oklch(98% 0.018 155.826);
+    --color-base-200: oklch(96% 0.044 156.743);
+    --color-base-300: oklch(92% 0.084 155.995);
+    --color-base-content: oklch(39% 0.095 152.535);
+    --color-primary: oklch(62% 0.214 259.815);
+    --color-primary-content: oklch(97% 0.014 254.604);
+    --color-secondary: oklch(63% 0.237 25.331);
+    --color-secondary-content: oklch(97% 0.013 17.38);
+    --color-accent: oklch(69% 0.17 162.48);
+    --color-accent-content: oklch(97% 0.021 166.113);
+    --color-neutral: oklch(52% 0.154 150.069);
+    --color-neutral-content: oklch(98% 0.018 155.826);
+    --color-info: oklch(74% 0.16 232.661);
+    --color-info-content: oklch(29% 0.066 243.157);
+    --color-success: oklch(79% 0.209 151.711);
+    --color-success-content: oklch(26% 0.065 152.934);
+    --color-warning: oklch(85% 0.199 91.936);
+    --color-warning-content: oklch(28% 0.066 53.813);
+    --color-error: oklch(71% 0.202 349.761);
+    --color-error-content: oklch(28% 0.109 3.907);
+    --radius-selector: 0.5rem;
+    --radius-field: 0.25rem;
+    --radius-box: 0.5rem;
+    --size-selector: 0.25rem;
+    --size-field: 0.25rem;
+    --border: 1px;
+    --depth: 1;
+    --noise: 0;
+  }
+  
